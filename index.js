@@ -3,7 +3,7 @@
 import express from 'express'
 import 'dotenv/config'
 
-const port = 4000;
+const port = process.env.PORT;
 
 const app = express();
 
